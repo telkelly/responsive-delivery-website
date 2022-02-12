@@ -1,7 +1,7 @@
 .section{
     padding: 4.5rem 0 1rem;
 
-    &_title, &_title-center{
+    &__title, &__title-center{
         font-size: var(--h2-font-size);
         color: var(--title-color);
         text-align: center;
@@ -10,13 +10,13 @@
 }
 
 .svg{
-    &_color{
+    &__color{
         fill: var(--first-color);
     }
-    &_blob{
+    &__blob{
         fill: var(--first-color-light);
     }
-    &_img{
+    &__img{
         width: 300px;
         justify-self: center;
     }

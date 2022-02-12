@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
 
-    &_menu{
+    &__menu{
         @media screen and (max-width: 767px){
             position: fixed;
             background-color: var(--container-color);
@@ -31,21 +31,21 @@
         }
     }
 
-    &_list{
+    &__list{
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 1.5rem;
     }
 
-    &_link, 
-    &_logo,
-    &_toogle{
+    &__link, 
+    &__logo,
+    &__toogle{
         color: var(--title-color);
         font-weight: var(--font-semi-bold);
     }
 
-    &_toogle{
+    &__toogle{
         font-size: 1.3rem;
         cursor: pointer;
     }

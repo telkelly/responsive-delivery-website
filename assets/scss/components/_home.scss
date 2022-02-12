@@ -1,13 +1,13 @@
 .home{
-    &_container{
+    &__container{
         row-gap: 3rem;
     }
-    &_title{
+    &__title{
         font-size: var(--biggest-font-size);
         font-weight: var(--font-bold);
         margin-bottom: var(--mb-0-75);
     }
-    &_description{
+    &__description{
         margin-bottom: var(--mb-2);
     }
 }
