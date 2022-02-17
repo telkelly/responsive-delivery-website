@@ -15,17 +15,19 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav_link">Home</a>
+                        <a href="#home" class="nav__link active-link">Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav_link">About us</a>
+                        <a href="#about" class="nav__link">About us</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#services" class="nav_link">Services</a>
+                        <a href="#services" class="nav__link">Services</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#contact" class="nav_link">Contact us</a>
+                        <a href="#contact" class="nav__link">Contact us</a>
                     </li>
+
+                    <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
                 </ul>
             </div>
 
@@ -1413,12 +1415,14 @@
                 </div>
             </section>
 
-            <section class="security section container" id="security">
+            <section class="security section container">
                 <div class="security__container grid">
+                    <div class="security__data">
                         <h2 class="section__title-center">Your Safety Is <br> Important</h2>
                         <p class="security__description">When your order reaches you, we have the health safety protocols,
                             so that you are protected from any disease. Watch the video of how the delivery is made.
                         </p>
+                    </div>
 
                         <svg class="svg__img svg__color" viewBox="0 0 312 221" xmlns="http://www.w3.org/2000/svg">
                             <path class="svg_blob" fill-rule="evenodd" clip-rule="evenodd"
@@ -1861,9 +1865,9 @@
                     <div class="services__data">
                         <h3 class="services__subtitle">Payment Done</h3>
                         
-                        <svg class="svg__img services__img" viewBox="0 0 135 94" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="svg__color services__img" viewBox="0 0 135 94" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0)">
-                                <path class="svg_blob" fill-rule="evenodd" clip-rule="evenodd"
+                                <path class="svg__blob" fill-rule="evenodd" clip-rule="evenodd"
                                     d="M5.59229 39.7131C11.0823 24.8477 36.0971 33.0466 49.1183 24.0699C55.5971 19.6035 52.0934 7.33904 58.7159 3.09023C65.5909 -1.3206 75.0664 -0.572162 82.5915 2.59438C89.8393 5.6442 92.1044 14.5362 98.0829 19.6556C106.994 27.2866 127.284 28.0347 125.939 39.7131C124.515 52.0743 103.171 48.4909 93.8199 56.6624C87.7775 61.9425 88.7221 72.0268 82.7832 77.4237C74.2223 85.2032 64.4046 96.0656 53.1071 93.6594C42.0017 91.294 40.8244 75.4218 33.3058 66.8855C24.538 56.9309 0.991432 52.1709 5.59229 39.7131Z" />
                                 <path
                                     d="M107.637 49.8901C107.637 49.8901 107.619 48.3335 107.553 48.3218L104.353 49.023C104.321 49.2263 103.916 51.7763 103.986 52.0264L107.583 53.0245C107.583 53.0245 107.637 49.9813 107.637 49.8901Z"
@@ -3738,26 +3742,26 @@
 
             <section class="app section container">
                 <div class="app__container grid">
-                    <h2 class="section__title-center">
-                        Watch Your Delivery <br> at any time
-                    </h2>
-                    <p class="app__description">With our app you can view the route of your order, from our local headquarters to the place where you are.
-                        Look for the app now!
-                    </p>
+                    <div class="app__data">
+                        <h2 class="section__title-center">
+                            Watch Your Delivery <br> at any time
+                        </h2>
+                        <p class="app__description">With our app you can view the route of your order, from our local headquarters to the place
+                            where you are.
+                            Look for the app now!
+                        </p>
+                        
+                        <div class="app__buttons">
+                            <a href="#" class="button button-flex">
+                                <i class='bx bxl-apple button__icon'></i> App Store
+                            </a>
 
-                    <div class="app__buttons">
-                        <a href="#" class="button button-flex">
-                            <i class='bx bxl-apple button__icon'></i> App Store
-                        </a>
+                            <a href="#" class="button button-flex">
+                                <i class='bx bxl-play-store button__icon'></i> Google Play
+                            </a>
+                        </div>
                     </div>
-
-                    <div class="app__buttons">
-                        <a href="#" class="button button-flex">
-                            <i class='bx bxl-play-store button__icon'></i> Google Play
-                        </a>
-                    </div>
-                </div>
-
+                    
                 <svg class="svg__img svg__color app__img" viewBox="0 0 312 256" xmlns="http://www.w3.org/2000/svg">
                     <path class="svg_blob" fill-rule="evenodd" clip-rule="evenodd"
                         d="M145.125 18.6078C173.354 14.4016 203.149 28.173 222.745 42.8809C241.011 56.5901 234.19 78.9132 247.231 95.242C259.932 111.145 288.188 119.064 297.22 136.13C307.83 156.177 321.738 182.536 302.149 199.011C281.424 216.442 238.718 204.35 207.757 211.374C184.859 216.569 168.387 230.286 145.125 234.636C116.976 239.901 85.3942 248.272 59.396 239.121C33.4587 229.992 22.121 207.969 14.2075 188.556C7.22755 171.433 18.9753 153.892 17.413 136.13C15.7174 116.855 -10.3869 96.1299 4.64775 79.8762C19.9226 63.363 60.6879 73.9034 84.6339 63.4594C110.054 52.3727 115.767 22.982 145.125 18.6078Z" />
@@ -4322,14 +4326,81 @@
 
             
             <section class="contact section container" id="contact">
-                
+                <div class="contact__container grid">
+                    <div class="contact__content">
+                        <h2 class="section__title-center">
+                            Contact Us From <br> Here
+                        </h2>
+                        <p class="contact__description">
+                            You can contact us from here, you can write to us or visit our service center, we will gladly assist you.
+                        </p>
+                    </div>
+
+                    <ul class="contact__content grid">
+                        <li class="contact__address">Telephone:<span class="contact__informaton"> 111-222-333</span></li>
+                        <li class="contact__address">Email:<span class="contact__informaton"> delivery@email.com</span></li>
+                        <li class="contact__address">Location:<span class="contact__informaton"> Israel</span></li>
+                    </ul> 
+
+                    <div class="conatct__content">
+                        <a href="#" class="button">Contact Us</a>
+                    </div>
+                </div>
             </section>
         </main>
 
         
         <footer class="footer section">
-            
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Delivery</a>
+                    <p class="footer__description">
+                        Order Products Faster <br> Easier
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Service</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Discounts</a></li>
+                        <li><a href="#" class="footer__link">Report a bug</a></li>
+                        <li><a href="#" class="footer__link">Terms Of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Company</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">Our mission</a></li>
+                        <li><a href="#" class="footer__link">Get in touch</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Community</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Support</a></li>
+                        <li><a href="#" class="footer__link">Questions</a></li>
+                        <li><a href="#" class="footer__link">Customer Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.twitter.com/" target="_blank" class="footer__social-link"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                &#169; Delivery. All right reserved
+            </p>
         </footer>
+        <a href="" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scroppup__icon'></i>
+        </a>
 
         <script src="assets/js/main.js"></script>
     </body>
