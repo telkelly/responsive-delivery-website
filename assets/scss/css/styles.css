@@ -205,12 +205,12 @@ body.dark-theme {
   row-gap: 1.5rem;
 }
 
-.nav__link, .nav__logo, .nav__toogle {
+.nav__link, .nav__logo, .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 
-.nav__toogle {
+.nav__toggle {
   font-size: 1.3rem;
   cursor: pointer;
 }
@@ -560,7 +560,7 @@ body.dark-theme {
     -webkit-column-gap: 2.5rem;
             column-gap: 2.5rem;
   }
-  .nav__toogle {
+  .nav__toggle {
     display: none;
   }
   .change-theme {

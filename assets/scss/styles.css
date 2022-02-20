@@ -158,11 +158,11 @@ img {
   align-items: center;
   row-gap: 1.5rem;
 }
-.nav_link, .nav_logo, .nav_toogle {
+.nav_link, .nav_logo, .nav_toggle {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
-.nav_toogle {
+.nav_toggle {
   font-size: 1.3rem;
   cursor: pointer;
 }
